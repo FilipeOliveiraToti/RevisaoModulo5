@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_ficha"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome: "
+        android:textColor="@color/titulo_ficha"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewRaca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Raça: "
+        android:textColor="@color/texto_ficha"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewClasse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Classe: "
+        android:textColor="@color/texto_ficha"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewForca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Força: "
+        android:textColor="@color/texto_ficha"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewAutoCura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Possui autocura?: "
+        android:textColor="@color/texto_ficha"
+        android:textSize="20sp" />
+
+</LinearLayout>

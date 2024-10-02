@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_do_personagem" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raça:" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupRaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonHumano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Humano" />
+
+        <RadioButton
+            android:id="@+id/radioButtonElfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elfo" />
+
+        <RadioButton
+            android:id="@+id/radioButtonGigante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gigante" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Classe:" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupClasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonGuerreiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guerreiro" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mago" />
+
+        <RadioButton
+            android:id="@+id/radioButtonVoador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voador" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Força:" />
+
+    <SeekBar
+        android:id="@+id/seekBarForca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="18" />
+
+    <TextView
+        android:id="@+id/textViewForca"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        tools:text="0"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxAutoCura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Possui autocura?" />
+
+    <Button
+        android:id="@+id/buttonConfirmar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar" />
+
+</LinearLayout>

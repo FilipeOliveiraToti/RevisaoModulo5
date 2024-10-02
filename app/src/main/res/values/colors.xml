@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_ficha">#F5F5DC</color>
+    <color name="titulo_ficha">#8B4513</color>
+    <color name="texto_ficha">#000000</color>
+</resources>
